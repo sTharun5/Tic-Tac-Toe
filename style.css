@@ -2,6 +2,10 @@
     margin:0;
     padding: 0;
 }
+.heading{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
 
 body{
     background-color: #548687;
@@ -11,10 +15,10 @@ body{
 .container{
     height: 70vh;
  display: flex;
-   
+
     justify-content: center;
     align-items: center;
-   
+
 }
 
 .game{
@@ -50,14 +54,14 @@ body{
 
 .game{
     position: relative;
-   
+
 }
 
 /* .strikeLine{
    height:0.4rem;
    width:130%;
    background-color: red;
-   position: absolute; 
+   position: absolute;
    bottom: 12vmin;
    transform: rotate(0deg);
    } */
